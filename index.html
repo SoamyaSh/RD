@@ -161,6 +161,56 @@
             .content {
                 padding: 1rem;
             }
+
+            /* Responsive Design */
+@media (max-width: 768px) {
+    /* Ensure the contact form is full-width */
+    .section form {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .section form input,
+    .section form textarea,
+    .section form button {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 1rem;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .cta button {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .footer {
+        padding: 0.5rem 0;
+    }
+}
+
         }
     </style>
 </head>
